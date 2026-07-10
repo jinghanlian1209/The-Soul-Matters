@@ -34,7 +34,7 @@ const POSTS = [
   }
   {
     title: "Someone Was Glad",
-    excerpt: "What airports teach us about leaving, arriving, and belonging nowhere for a little while.",
+    excerpt: "My friend wrote me a 7-page letter, I'll keep it forever.",
     date: "2026-05-29",
     displayDate: "May 29, 2026",
     category: "Life Happened",
