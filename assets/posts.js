@@ -6,19 +6,19 @@ const POSTS = [
     displayDate: "July 1, 2026",
     category: "Love & Souls",
     place: "Los Angeles",
-    mood: "brave, but soft",
-    readingTime: "8 min read",
+    mood: "Fear, but brave",
+    readingTime: "6 min read",
     url: "posts/does-the-soul-matter.html"
   },
   {
-    title: "Crying and Figuring It Out",
+    title: "Give the World Time",
     excerpt: "A small defense of being emotional and functional at the same time.",
-    date: "2026-06-30",
-    displayDate: "June 30, 2026",
+    date: "2026-06-26",
+    displayDate: "June 26, 2026",
     category: "Little Thoughts",
     place: "Westwood",
     mood: "overwhelmed, still moving",
-    readingTime: "4 min read",
+    readingTime: "6 min read",
     url: "posts/crying-and-figuring-it-out.html"
   },
   {
