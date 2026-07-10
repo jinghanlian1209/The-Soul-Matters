@@ -32,4 +32,15 @@ const POSTS = [
     readingTime: "6 min read",
     url: "posts/between-flights-and-feelings.html"
   }
+  {
+    title: "Someone Was Glad",
+    excerpt: "What airports teach us about leaving, arriving, and belonging nowhere for a little while.",
+    date: "2026-05-29",
+    displayDate: "May 29, 2026",
+    category: "Life Happened",
+    place: "Cambridge",
+    mood: "touching",
+    readingTime: "10 min read",
+    url: "posts/someone-was-glad.html"
+  }
 ];
