@@ -31,7 +31,7 @@ const POSTS = [
     mood: "exhausted, enchanted",
     readingTime: "6 min read",
     url: "posts/between-flights-and-feelings.html"
-  }
+  },
   {
     title: "Someone Was Glad",
     excerpt: "My friend wrote me a 7-page letter, I'll keep it forever.",
