@@ -185,3 +185,9 @@ h1 { margin: 0; font-size: clamp(3rem, 7vw, 5.7rem); font-weight: 500; letter-sp
   .article-card { border-radius: 22px; }
   .site-footer { flex-direction: column; }
 }
+.about-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 22px;
+}
