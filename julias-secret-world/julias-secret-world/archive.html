@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse the writing archive of Julia's Secret World." />
+  <title>Archive · Julia's Secret World</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header shell">
+    <a class="brand" href="index.html"><span class="brand-mark">✦</span><span>Julia's Secret World</span></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a class="active" href="archive.html">Archive</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="page-main shell">
+    <section class="page-intro">
+      <p class="eyebrow">The soft archive</p>
+      <h1>A cabinet of thoughts, organized only enough to find them again.</h1>
+      <p>Choose a room, search a word, or simply wander.</p>
+    </section>
+
+    <section class="archive-tools" aria-label="Archive filters">
+      <div class="filter-row" id="category-filters"></div>
+      <label class="search-box">
+        <span>⌕</span>
+        <input id="search-input" type="search" placeholder="Search titles, moods, places..." />
+      </label>
+    </section>
+
+    <section>
+      <p class="archive-count" id="archive-count"></p>
+      <div class="archive-list" id="archive-posts"></div>
+      <div class="empty-state" id="empty-state" hidden>
+        <span>☁</span>
+        <h2>No thoughts found here yet.</h2>
+        <p>Try another room or a softer search word.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <p>Made with too many thoughts and just enough courage.</p>
+    <p>© <span id="year"></span> Julia</p>
+  </footer>
+
+  <script src="assets/posts.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+</html>
