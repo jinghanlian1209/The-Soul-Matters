@@ -39,7 +39,7 @@
       const term = (searchInput.value || '').trim().toLowerCase();
       const filtered = POSTS.filter(post => {
         const categoryMatch = activeCategory === 'All' || post.category === activeCategory;
-        const haystack = `${post.title} ${post.excerpt} ${post.category} ${post.place} ${post.mood}`.toLowerCase();
+        const haystack = `${post.title} ${post.excerpt} ${post.category} ${post.place}`.toLowerCase();
         return categoryMatch && haystack.includes(term);
       });
 
@@ -87,7 +87,8 @@
           <span class="category-pill">${escapeHTML(post.category)}</span>
           <h2><a href="${escapeHTML(post.url)}">${escapeHTML(post.title)}</a></h2>
           <p>${escapeHTML(post.excerpt)}</p>
-          <div class="archive-meta"><span>⌖ ${escapeHTML(post.place)}</span><span>♡ ${escapeHTML(post.mood)}</span></div>
+          <div class="archive-meta">
+           <span>⌖ ${escapeHTML(post.place)}</span>
         </div>
         <a class="archive-arrow" href="${escapeHTML(post.url)}" aria-label="Read ${escapeHTML(post.title)}">↗</a>
       </article>`;
