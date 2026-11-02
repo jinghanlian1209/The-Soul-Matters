@@ -1,5 +1,15 @@
 const POSTS = [
   {
+  "title": "For October",
+  "excerpt": "On growing up, missing home, and making it into the forever we promised as children.",
+  "date": "2026-11-02",
+  "displayDate": "November 2, 2026",
+  "category": "Life Happened",
+  "place": "Los Angeles",
+  "readingTime": "9 min read",
+  "url": "posts/for-october.html"
+},
+  {
     title: "I Thought Today Was the Most",
     excerpt: "I beg you. If you don’t miss me. Don’t show up in my dreams again.",
     date: "2026-07-03",
@@ -120,3 +130,4 @@ const POSTS = [
     url: "posts/thirteen-hours-away.html"
   }
 ];
+
